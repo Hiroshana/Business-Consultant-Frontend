@@ -2,7 +2,7 @@ import Menu from "@/components/Header/Menu/Menu";
 import TopNav from "@/components/Header/TopNav/TopNav";
 import Service from "@/components/Service/Service";
 import Slider from "@/components/Slider/Slider";
-import Image from "next/image";
+import serviceData from '@/data/service.json'
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       </header>
       <main className="content">
         <Slider/>
-        <Service/>
+        <Service data={serviceData}/>
       </main>
     </div>
   );
