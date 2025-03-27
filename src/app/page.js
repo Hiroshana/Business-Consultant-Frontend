@@ -1,5 +1,6 @@
 import Menu from "@/components/Header/Menu/Menu";
 import TopNav from "@/components/Header/TopNav/TopNav";
+import PaymentGateway from "@/components/PaymentGateway/PaymentGateway";
 import Service from "@/components/Service/Service";
 import Slider from "@/components/Slider/Slider";
 import serviceData from '@/data/service.json'
@@ -14,6 +15,7 @@ export default function Home() {
       <main className="content">
         <Slider/>
         <Service data={serviceData}/>
+        <PaymentGateway/>
       </main>
     </div>
   );

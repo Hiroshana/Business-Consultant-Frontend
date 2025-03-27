@@ -254,7 +254,6 @@ button {
     font-weight: 700;
     text-transform: capitalize;
     padding: 12px 28px;
-    border-radius: 8px;
     display: inline-block;
     cursor: pointer;
     transition: all ease 0.4s;
@@ -389,7 +388,7 @@ button {
         font-size: 14px;
         line-height: 22px;
         padding: 10px 20px;
-        border-radius: 6px;
+        // border-radius: 6px;
     }
 
     .button-rounded {
