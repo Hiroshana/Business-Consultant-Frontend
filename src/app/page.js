@@ -5,6 +5,7 @@ import PaymentGateway from "@/components/PaymentGateway/PaymentGateway";
 import Service from "@/components/Service/Service";
 import Slider from "@/components/Slider/Slider";
 import serviceData from '@/data/service.json'
+import PaymentGatewayTwo from './../components/PaymentGateway/PaymentGatewayTwo';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Service data={serviceData}/>
         <PaymentGateway/>
         <CaseStudy/>
+        <PaymentGatewayTwo/>
       </main>
     </div>
   );
